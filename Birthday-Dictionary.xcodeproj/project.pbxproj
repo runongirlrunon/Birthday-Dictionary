@@ -7,7 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		21EA5BFF1BB8BCFA0062A8E1 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 21EA5BFE1BB8BCFA0062A8E1 /* main.cpp */; };
+		21EA5C131BB8BD400062A8E1 /* DictionaryEntry.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 21EA5C051BB8BD400062A8E1 /* DictionaryEntry.cpp */; settings = {ASSET_TAGS = (); }; };
+		21EA5C141BB8BD400062A8E1 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 21EA5C071BB8BD400062A8E1 /* main.cpp */; settings = {ASSET_TAGS = (); }; };
+		21EA5C151BB8BD400062A8E1 /* LinkedList.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 21EA5C091BB8BD400062A8E1 /* LinkedList.cpp */; settings = {ASSET_TAGS = (); }; };
+		21EA5C161BB8BD400062A8E1 /* Node.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 21EA5C0C1BB8BD400062A8E1 /* Node.cpp */; settings = {ASSET_TAGS = (); }; };
+		21EA5C171BB8BD400062A8E1 /* PrecondViolatedExcep.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 21EA5C0E1BB8BD400062A8E1 /* PrecondViolatedExcep.cpp */; settings = {ASSET_TAGS = (); }; };
+		21EA5C181BB8BD400062A8E1 /* SortedListHasA.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 21EA5C101BB8BD400062A8E1 /* SortedListHasA.cpp */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,7 +29,20 @@
 
 /* Begin PBXFileReference section */
 		21EA5BFB1BB8BCFA0062A8E1 /* Birthday-Dictionary */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Birthday-Dictionary"; sourceTree = BUILT_PRODUCTS_DIR; };
-		21EA5BFE1BB8BCFA0062A8E1 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		21EA5C051BB8BD400062A8E1 /* DictionaryEntry.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = DictionaryEntry.cpp; path = ../DictionaryEntry.cpp; sourceTree = "<group>"; };
+		21EA5C061BB8BD400062A8E1 /* DictionaryEntry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DictionaryEntry.h; path = ../DictionaryEntry.h; sourceTree = "<group>"; };
+		21EA5C071BB8BD400062A8E1 /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = main.cpp; path = ../main.cpp; sourceTree = "<group>"; };
+		21EA5C081BB8BD400062A8E1 /* aboutMe.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = aboutMe.txt; path = ../aboutMe.txt; sourceTree = "<group>"; };
+		21EA5C091BB8BD400062A8E1 /* LinkedList.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = LinkedList.cpp; path = ../LinkedList.cpp; sourceTree = "<group>"; };
+		21EA5C0A1BB8BD400062A8E1 /* LinkedList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LinkedList.h; path = ../LinkedList.h; sourceTree = "<group>"; };
+		21EA5C0B1BB8BD400062A8E1 /* ListInterface.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ListInterface.h; path = ../ListInterface.h; sourceTree = "<group>"; };
+		21EA5C0C1BB8BD400062A8E1 /* Node.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Node.cpp; path = ../Node.cpp; sourceTree = "<group>"; };
+		21EA5C0D1BB8BD400062A8E1 /* Node.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Node.h; path = ../Node.h; sourceTree = "<group>"; };
+		21EA5C0E1BB8BD400062A8E1 /* PrecondViolatedExcep.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = PrecondViolatedExcep.cpp; path = ../PrecondViolatedExcep.cpp; sourceTree = "<group>"; };
+		21EA5C0F1BB8BD400062A8E1 /* PrecondViolatedExcep.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PrecondViolatedExcep.h; path = ../PrecondViolatedExcep.h; sourceTree = "<group>"; };
+		21EA5C101BB8BD400062A8E1 /* SortedListHasA.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = SortedListHasA.cpp; path = ../SortedListHasA.cpp; sourceTree = "<group>"; };
+		21EA5C111BB8BD400062A8E1 /* SortedListHasA.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SortedListHasA.h; path = ../SortedListHasA.h; sourceTree = "<group>"; };
+		21EA5C121BB8BD400062A8E1 /* SortedListInterface.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SortedListInterface.h; path = ../SortedListInterface.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +75,20 @@
 		21EA5BFD1BB8BCFA0062A8E1 /* Birthday-Dictionary */ = {
 			isa = PBXGroup;
 			children = (
-				21EA5BFE1BB8BCFA0062A8E1 /* main.cpp */,
+				21EA5C051BB8BD400062A8E1 /* DictionaryEntry.cpp */,
+				21EA5C061BB8BD400062A8E1 /* DictionaryEntry.h */,
+				21EA5C071BB8BD400062A8E1 /* main.cpp */,
+				21EA5C081BB8BD400062A8E1 /* aboutMe.txt */,
+				21EA5C091BB8BD400062A8E1 /* LinkedList.cpp */,
+				21EA5C0A1BB8BD400062A8E1 /* LinkedList.h */,
+				21EA5C0B1BB8BD400062A8E1 /* ListInterface.h */,
+				21EA5C0C1BB8BD400062A8E1 /* Node.cpp */,
+				21EA5C0D1BB8BD400062A8E1 /* Node.h */,
+				21EA5C0E1BB8BD400062A8E1 /* PrecondViolatedExcep.cpp */,
+				21EA5C0F1BB8BD400062A8E1 /* PrecondViolatedExcep.h */,
+				21EA5C101BB8BD400062A8E1 /* SortedListHasA.cpp */,
+				21EA5C111BB8BD400062A8E1 /* SortedListHasA.h */,
+				21EA5C121BB8BD400062A8E1 /* SortedListInterface.h */,
 			);
 			path = "Birthday-Dictionary";
 			sourceTree = "<group>";
@@ -118,7 +149,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				21EA5BFF1BB8BCFA0062A8E1 /* main.cpp in Sources */,
+				21EA5C171BB8BD400062A8E1 /* PrecondViolatedExcep.cpp in Sources */,
+				21EA5C181BB8BD400062A8E1 /* SortedListHasA.cpp in Sources */,
+				21EA5C141BB8BD400062A8E1 /* main.cpp in Sources */,
+				21EA5C151BB8BD400062A8E1 /* LinkedList.cpp in Sources */,
+				21EA5C131BB8BD400062A8E1 /* DictionaryEntry.cpp in Sources */,
+				21EA5C161BB8BD400062A8E1 /* Node.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
